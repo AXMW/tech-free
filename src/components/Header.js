@@ -33,7 +33,7 @@ function Header() {
                     </div>
                     <nav>
                         <ul onclick="getElementById('close-menu').checked = false;">
-                            <li><Link class="links-header" to='/Principal'>Feed</Link></li>
+                            <li><Link class="links-header" to='/Principal'>Início</Link></li>
                             <li><Link class="links-header" to='/FAQ'>FAQ</Link></li>
                             <li><Link class="links-header" to='/Login'><i class="fa fa-user"></i></Link></li>
                             <li><button class="notificacao-icon" onClick={openNotify}><i class="fa fa-bell notificacao-icon"></i></button></li>
